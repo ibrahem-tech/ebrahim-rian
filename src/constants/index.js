@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  tempo,
+  autocoin,
+  UofT,
   carrent,
   jobit,
   tripguide,
   threejs,
+  mysql,
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Solidity Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "React Native",
     icon: creator,
   },
 ];
@@ -89,12 +89,20 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "solidity",
+    icon: docker,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "Three JS",
@@ -104,67 +112,52 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Co-founder and Software Engineer",
+    company_name: " The Autocoin",
+    icon: autocoin,
+    iconBg: "#000000",
+    date: "January 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "  Spearheaded the development and successful launch of Autocoin's cutting-edge cryptocurrency platform, leading a team of engineers to design and implement innovative solutions for secure and efficient transactions.",
+      "  Collaborated with cross-functional teams to develop and refine Autocoin's software architecture, utilizing agile methodologies to ensure scalability, reliability, and flexibility in a rapidly evolving market.",
+      "Implemented rigorous quality assurance processes, conducting comprehensive testing and debugging to optimize Autocoin's platform performance. Resulted in a 30% increase in transaction speed and a 20% reduction in system downtime.",
+      "Played a pivotal role in securing partnerships with major financial institutions, driving revenue growth by 40% within the first year of operations. Positioned Autocoin as a key player in the cryptocurrency market.",
+      "Successfully implemented a groundbreaking monthly cashback rewards system, streamlined online insurance processes, and facilitated hassle-free door-to-door car delivery. Revolutionized the car buying process for Canadian consumers.",
+      "Developed Ethereum Smart Contracts to demonstrate proficiency in blockchain technology and decentralized application (DApp) development",
     ],
   },
+
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "React.js and React Native Developer",
+    company_name: "Tempo.fit",
+    icon: tempo,
+    iconBg: "#F0FFFF",
+    date: "September 2019 - January 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developed an internal search result side-by-side comparison tool utilizing Node.js backend and React frontend.",
+      "Executed full stack development tasks encompassing MySQL database management, backend algorithm implementation, HTTP API integration, and UI design and implementation.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Enhanced trainer tools to optimize efficiency, minimizing time spent on class planning for trainers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    company_name: "University of Toronto",
+    icon: UofT,
+    iconBg: "#F0FFFF",
+    date: "Jan 2020 - July 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and optimized webpages, significantly improving browser render performance..",
+      "Created multiple front-end websites from the ground up.",
+      "Constructed full-stack, single-page web applications utilizing RESTful routes and AJAX methods.",
+      "Built webpages with dynamic content and implemented user-authentication schemes by integrating various database types such as MySQL, MongoDB, and Firebase.",
+      "Demonstrated consistent utilization of source control, issue tracking, and functional feedback systems.",
+      "Proficiently employed a wide range of technologies including React, JavaScript, Node.js, HTML, CSS, jQuery, Java, MongoDB, MySQL, and Firebase.",
     ],
   },
 ];
@@ -197,6 +190,69 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
   {
     name: "Car Rent",
     description:

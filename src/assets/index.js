@@ -20,11 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mysql from "./tech/mysql.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import tempo from "./company/tempo.png";
+import autocoin from "./company/Autocoin.png";
+import UofT from "./company/UofT.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -42,6 +42,7 @@ export {
   css,
   docker,
   figma,
+  threejs,
   git,
   html,
   javascript,
@@ -51,12 +52,11 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  autocoin,
+  UofT,
   carrent,
   jobit,
   tripguide,
+  tempo,
+  mysql,
 };
